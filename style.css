@@ -1,0 +1,77 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f2f3f7;
+  padding: 50px;
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.task-form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.task-info {
+  flex-grow: 1;
+}
+
+.task-title {
+  font-weight: bold;
+}
+
+.task-desc {
+  font-size: 14px;
+  color: #555;
+}
+
+.task-status {
+  padding: 5px 12px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.completed {
+  background-color: #28a745;
+}
+
+.in-progress {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.task-actions button {
+  margin-left: 5px;
+  cursor: pointer;
+}
