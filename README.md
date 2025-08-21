@@ -1,6 +1,6 @@
 Markdown
 
-# Simple Task Manager (TypeScript & HTML)
+# Cai's Simple Task Manager (TypeScript & HTML)
 
 This project is a simple Task Manager web application built using TypeScript and HTML. It allows users to add tasks, mark them as complete, delete tasks, and view a list of all tasks.
 
